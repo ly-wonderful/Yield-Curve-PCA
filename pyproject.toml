@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tcio"
+version = "0.1.0"
+description = ""
+authors = ["Yang, Lu X <lu.x.yang@jpmorgan.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pandas = "^2.2.2"
+sklearn = "^0.0.post12"
+matplotlib = "^3.9.2"
+statsmodels = "^0.14.2"
+seaborn = "^0.13.2"
+fredapi = "^0.5.2"
+numpy = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
